@@ -1,7 +1,7 @@
 @font-face{
     font-family: 'Arial';
-    src: url('/katyachuprina-JSFE2022Q1/Shelter_project/fonts/arial-webfont.woff2') format('woff2'),
-    url('/katyachuprina-JSFE2022Q1/Shelter_project/fonts/arial-webfont.woff') format('woff');
+    src: url('//shelter/SHELTER/Shelter_project/fonts/arial-webfont.woff2') format('woff2'),
+    url('/shelter/SHELTER/Shelter_project/fonts/arial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Georgia';
-    src: url('/katyachuprina-JSFE2022Q1/Shelter_project/fonts/georgia-webfont.woff2') format('woff2'),
-    url('/katyachuprina-JSFE2022Q1/Shelter_project/fonts/georgia-webfont.woff') format('woff');
+    src: url('/shelter/SHELTER/Shelter_project/fonts/georgia-webfont.woff2') format('woff2'),
+    url('/shelter/SHELTER/Shelter_project/fonts/georgia-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal; 
     font-display: swap; 
@@ -288,14 +288,14 @@ body {
 
 
 .our_friends__button1{
-    background: url("/katyachuprina-JSFE2022Q1/Shelter_project/pets/icons/<<.svg") no-repeat center;
+    background: url("/shelter/SHELTER/Shelter_project/pets/icons/<<.svg") no-repeat center;
     border: 2px solid #cdcdcd;
     margin-left: -2px;
 
 }
 
 .our_friends__button2{
-    background: url("/katyachuprina-JSFE2022Q1/Shelter_project/pets/icons/<.svg") no-repeat center;
+    background: url("/shelter/SHELTER/Shelter_project/pets/icons/<.svg") no-repeat center;
     border: 2px solid #cdcdcd;
     margin-left: -2px;
 
@@ -303,19 +303,19 @@ body {
 }
 
 .our_friends__button3{
-    background: url("/katyachuprina-JSFE2022Q1/Shelter_project/pets/icons/1.svg") no-repeat center;
+    background: url("/shelter/SHELTER/Shelter_project/pets/icons/1.svg") no-repeat center;
     background-color: #F1CDB3;
     border: 2px solid #F1CDB3;
 }
 
 .our_friends__button4{
-    background: url("/katyachuprina-JSFE2022Q1/Shelter_project/pets/icons/>.svg") no-repeat center;
+    background: url("/shelter/SHELTER/Shelter_project/pets/icons/>.svg") no-repeat center;
     border: 2px solid #F1CDB3;
     
 }
 
 .our_friends__button5{
-    background: url("/katyachuprina-JSFE2022Q1/Shelter_project/pets/icons/>>.svg") no-repeat center;
+    background: url("/shelter/SHELTER/Shelter_project/pets/icons/>>.svg") no-repeat center;
     border: 2px solid #F1CDB3;
     
 }
@@ -406,7 +406,7 @@ body {
 /* ----- footer ---- */
 
 .contacts{
-    background: url('/katyachuprina-JSFE2022Q1/Shelter_project/pets/images/footer-gradient-background.png') no-repeat;
+    background: url('/shelter/SHELTER/Shelter_project/pets/images/footer-gradient-background.png') no-repeat;
 }
 
 .contacts__container{

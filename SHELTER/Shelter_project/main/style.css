@@ -1,7 +1,7 @@
 @font-face{
     font-family: 'Arial';
-    src: url('/katyachuprina-JSFE2022Q1/Shelter_project/fonts/arial-webfont.woff2') format('woff2'),
-    url('/katyachuprina-JSFE2022Q1/Shelter_project/fonts/arial-webfont.woff') format('woff');
+    src: url('/shelter/SHELTER/Shelter_project/fonts/arial-webfont.woff2') format('woff2'),
+    url('/shelter/SHELTER/Shelter_project/fonts/arial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Georgia';
-    src: url('/katyachuprina-JSFE2022Q1/Shelter_project/fonts/georgia-webfont.woff2') format('woff2'),
-    url('/katyachuprina-JSFE2022Q1/Shelter_project/fonts/georgia-webfont.woff') format('woff');
+    src: url('/shelter/SHELTER/Shelter_project/fonts/georgia-webfont.woff2') format('woff2'),
+    url('/shelter/SHELTER/Shelter_project/fonts/georgia-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal; 
     font-display: swap; 
@@ -188,7 +188,7 @@ body{
 
 /* intro styles  start */
 .intro{
-    background: url('/katyachuprina-JSFE2022Q1/Shelter_project/images/start-screen-gradient-background.png') no-repeat center;
+    background: url('/shelter/SHELTER/Shelter_project/images/start-screen-gradient-background.png') no-repeat center;
 }
 
 .intro__container{
@@ -300,7 +300,7 @@ body{
 /* about styles  end */
 
 /* our friends styles  start */
-.ourfriens{
+.ourfriends{
     background-color: #F6F6F6;
 }
 
@@ -320,18 +320,18 @@ body{
     padding-bottom: 58px;
 }
 
-.ourfriens__container{
+.ourfriends__container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-column-gap: 90px;
 
 }
 
-.ourfriens__container img{
+.ourfriends__container img{
     padding-bottom: 27px;
 }
 
-.ourfriens__container h4{
+.ourfriends__container h4{
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -345,7 +345,7 @@ body{
     padding-bottom: 30px;
 
 }
-.ourfrinds_card-btn{
+.ourfriends_card-btn{
     display: block;
     margin: 0 auto;
     width: 187px;
@@ -364,13 +364,13 @@ body{
 
 }
 
-.ourfrinds_card-btn:hover{
+.ourfriends_card-btn:hover{
     background-color: #FDDCC4;
     border-color: #FDDCC4;
     transition: all 1 linear;
 }
 
-.ourfriens__left-btn_{
+.ourfriends__left-btn_{
     font-size: 12px;
     margin-top: 192px;
     margin-right: -37px;
@@ -378,11 +378,11 @@ body{
     height: 52px;
     border: 2px solid #F1CDB3;
     border-radius: 100px;
-    background: url('/katyachuprina-JSFE2022Q1/Shelter_project/icons/Arrow_left.svg') no-repeat center;
+    background: url('/shelter/SHELTER/Shelter_project/icons/Arrow_left.svg') no-repeat center;
 }
 
 
-.ourfriens__right-btn_{
+.ourfriends__right-btn_{
     font-size: 14px;
     margin-top: 192px;
     margin-left: -35px;
@@ -390,16 +390,16 @@ body{
     height: 52px;
     border: 2px solid #F1CDB3;
     border-radius: 100px;
-    background: url('/katyachuprina-JSFE2022Q1/Shelter_project/icons/Arrow_right.svg') no-repeat center;
+    background: url('/shelter/SHELTER/Shelter_project/icons/Arrow_right.svg') no-repeat center;
 }
 
 
-.ourfriens__right-btn_:hover, .ourfriens__left-btn_:hover{
+.ourfriends__right-btn_:hover, .ourfriends__left-btn_:hover{
     background-color: #FDDCC4;
     border-color: #FDDCC4;
     transition: all 1 linear;
 }
-.ourfriens__card1, .ourfriens__card2, .ourfriens__card3{
+.ourfriends__card1, .ourfriends__card2, .ourfriends__card3{
     background-color: #fafafa;;
     border: solid 0px #fafafa;
     border-radius: 9px;
@@ -436,28 +436,28 @@ body{
     transition: all 1 linear;
 }
 
-.ourfriens__card1:hover{
+.ourfriends__card1:hover{
     background-color: #fff;
 }
-.ourfriens__card1:hover .ourfrinds_card-btn{
+.ourfriends__card1:hover .ourfriends_card-btn{
     background-color: #FDDCC4;
     border-color: #FDDCC4;
     transition: all 1 linear;
 }
 
-.ourfriens__card2:hover{
+.ourfriends__card2:hover{
     background-color: #fff;
 }
-.ourfriens__card2:hover .ourfrinds_card-btn{
+.ourfriends__card2:hover .ourfriends_card-btn{
     background-color: #FDDCC4;
     border-color: #FDDCC4;
     transition: all 1 linear;
 }
 
-.ourfriens__card3:hover{
+.ourfriends__card3:hover{
     background-color: #fff;
 }
-.ourfriens__card3:hover .ourfrinds_card-btn{
+.ourfriends__card3:hover .ourfriends_card-btn{
     background-color: #FDDCC4;
     border-color: #FDDCC4;
     transition: all 1 linear;
@@ -614,7 +614,7 @@ body{
 
 
 .contacts{
-    background: url("/katyachuprina-JSFE2022Q1/Shelter_project/images/footer-gradient-background.png") no-repeat;
+    background: url("/shelter/SHELTER/Shelter_project/images/footer-gradient-background.png") no-repeat;
 }
 
 .contacts__container{
